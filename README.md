@@ -18,4 +18,3 @@
 1x RA-01	U2	[WIRELM-SMD_RA-01]
 1x ARDUINO_PRO_MINI	U6
 1x AP2112K-3.3TRG1	U8	[SOT-25-5_L3.0-W1.8-P0.95-LS3.0-BR]
-![image](https://user-images.githubusercontent.com/81021972/123467387-bfb35380-d5f0-11eb-82fe-50a86e363d81.png)
