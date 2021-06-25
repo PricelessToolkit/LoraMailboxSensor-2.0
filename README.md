@@ -5,6 +5,9 @@
 # How its Works
 ![how it works](https://user-images.githubusercontent.com/81021972/123473935-90551480-d5f9-11eb-80eb-ae70d957cef9.png)
 
+# Sensor integration to Home Assistant
+coming soon ....
+
 
 
 # Part list
