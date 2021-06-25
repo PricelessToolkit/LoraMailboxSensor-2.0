@@ -7,8 +7,6 @@
 
 
 # Part list
-![schem](https://user-images.githubusercontent.com/81021972/123468879-a6aba200-d5f2-11eb-8a06-32e5c5efc5f9.JPG)
-
 
 1x HDR-M-2.54_1x3	[AM312	HDR-M-2.54_1X3]
 
@@ -39,3 +37,6 @@
 1x ARDUINO_PRO_MINI	U6
 
 1x AP2112K-3.3TRG1	U8	[SOT-25-5_L3.0-W1.8-P0.95-LS3.0-BR]
+
+# Scheme
+![schem](https://user-images.githubusercontent.com/81021972/123468879-a6aba200-d5f2-11eb-8a06-32e5c5efc5f9.JPG)
