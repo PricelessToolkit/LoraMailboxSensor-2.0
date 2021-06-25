@@ -46,6 +46,6 @@
 
 
 # Additional links
-OpenMQTTGateway https://github.com/1technophile/OpenMQTTGateway
-
 Home Assistant https://www.home-assistant.io/
+
+OpenMQTTGateway https://github.com/1technophile/OpenMQTTGateway
