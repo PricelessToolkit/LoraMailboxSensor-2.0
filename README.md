@@ -3,7 +3,8 @@
 ![MailboxSensorThumb](https://user-images.githubusercontent.com/81021972/123465493-7bbf4f00-d5ee-11eb-8d49-5c4576d5342b.jpg)
 
 # Part list
-![pcb-hor](https://user-images.githubusercontent.com/81021972/123468266-d017fe00-d5f1-11eb-8656-cf28d3c63cdf.png)
+![schem](https://user-images.githubusercontent.com/81021972/123468879-a6aba200-d5f2-11eb-8a06-32e5c5efc5f9.JPG)
+
 
 1x HDR-M-2.54_1x3	[AM312	HDR-M-2.54_1X3]
 
