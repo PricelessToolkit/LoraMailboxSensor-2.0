@@ -43,3 +43,8 @@
 
 # Scheme
 ![schem](https://user-images.githubusercontent.com/81021972/123468879-a6aba200-d5f2-11eb-8a06-32e5c5efc5f9.JPG)
+
+
+# Additional links
+OpenMQTTGateway https://github.com/1technophile/OpenMQTTGateway
+Home Assistant https://www.home-assistant.io/
