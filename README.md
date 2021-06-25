@@ -3,7 +3,7 @@
 ![MailboxSensorThumb](https://user-images.githubusercontent.com/81021972/123465493-7bbf4f00-d5ee-11eb-8d49-5c4576d5342b.jpg)
 
 # How its Works
-![how it works](https://user-images.githubusercontent.com/81021972/123471333-e922ae00-d5f5-11eb-875a-e98015f22dad.png)
+![how it works](https://user-images.githubusercontent.com/81021972/123472198-276c9d00-d5f7-11eb-8677-c53decd224fc.png)
 
 
 # Part list
