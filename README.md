@@ -2,6 +2,10 @@
 
 ![MailboxSensorThumb](https://user-images.githubusercontent.com/81021972/123465493-7bbf4f00-d5ee-11eb-8d49-5c4576d5342b.jpg)
 
+# How its Works
+![how it works](https://user-images.githubusercontent.com/81021972/123471333-e922ae00-d5f5-11eb-875a-e98015f22dad.png)
+
+
 # Part list
 ![schem](https://user-images.githubusercontent.com/81021972/123468879-a6aba200-d5f2-11eb-8a06-32e5c5efc5f9.JPG)
 
