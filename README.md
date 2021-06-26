@@ -46,7 +46,7 @@ coming soon ....
 
 1x MailboxSensor PCB
 
-# What Arduino pins to solder
+# Which Arduino pins to solder
 The board connects to the arduino via pins D2 D3 D9 D10 D11 D12 D13 A0 VCC GND
 
 # Scheme
