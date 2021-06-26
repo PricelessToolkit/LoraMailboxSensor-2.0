@@ -38,7 +38,7 @@ coming soon ....
 
 1x TS342A2P-WZ	TEST Button	[SW-SMD_L4.0-W2.9-LS5.0]
 
-1x RA-01 433Mhz or RA-01H 915/868Mhz	U2
+1x **RA-01 433Mhz or RA-01H 915/868Mhz** U2
 
 1x ARDUINO_PRO_MINI	U6
 
