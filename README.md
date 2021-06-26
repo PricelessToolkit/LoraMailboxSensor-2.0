@@ -1,4 +1,4 @@
-# LoraMailboxSensor-2.0
+# LoraMailboxSensor-2.0 433Mhz or 915/868Mhz
 
 https://youtu.be/RHsjFPWaYSY
 
