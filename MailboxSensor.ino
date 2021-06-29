@@ -28,7 +28,8 @@ void setup() {
 
 
 void loop() {
-  float volts = (analogRead(A0)*1.1/1024.0) * (99.5+9.97)/9.97;
+	// For accuracy, check the resistance of the resistors R6 and R7 with a multimeter and change value in the code
+  float volts = (analogRead(A0)*1.1/1024.0) * (100+20)/20; // Resistors R6 (100k) and R7 (20k)
   /*Serial.print(volts); */
   
 
