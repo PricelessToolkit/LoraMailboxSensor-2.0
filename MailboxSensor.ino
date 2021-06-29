@@ -35,7 +35,7 @@ void loop() {
 
   if (loopcounter < 2){
     LoRa.beginPacket();
-    LoRa.print("0xA2B2");  //  your key here 
+    LoRa.print("0xA2B2");  //  your MailBox key here 
     LoRa.endPacket();
     delay(500);
    }
