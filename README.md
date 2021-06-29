@@ -1,9 +1,14 @@
-# LoraMailboxSensor-2.0
+# LoraMailboxSensor-2.0 433Mhz or 915/868Mhz
 
-![MailboxSensorThumb](https://user-images.githubusercontent.com/81021972/123465493-7bbf4f00-d5ee-11eb-8d49-5c4576d5342b.jpg)
+https://youtu.be/RHsjFPWaYSY
+
+[![MailboxSensorThumb](https://user-images.githubusercontent.com/81021972/123465493-7bbf4f00-d5ee-11eb-8d49-5c4576d5342b.jpg)](https://youtu.be/RHsjFPWaYSY)
 
 # How its Works
 ![how it works](https://user-images.githubusercontent.com/81021972/123473935-90551480-d5f9-11eb-80eb-ae70d957cef9.png)
+
+# Sensor integration to Home Assistant
+coming soon ....
 
 
 
@@ -33,13 +38,16 @@
 
 1x TS342A2P-WZ	TEST Button	[SW-SMD_L4.0-W2.9-LS5.0]
 
-1x RA-01	U2
+1x **RA-01 433Mhz or RA-01H 915/868Mhz** U2
 
 1x ARDUINO_PRO_MINI	U6
 
 1x AP2112K-3.3TRG1	U8	[SOT-25-5_L3.0-W1.8-P0.95-LS3.0-BR]
 
 1x MailboxSensor PCB
+
+# Which Arduino pins to solder
+The board connects to the arduino via pins D2 D3 D9 D10 D11 D12 D13 A0 VCC GND
 
 # Scheme
 ![schem](https://user-images.githubusercontent.com/81021972/123468879-a6aba200-d5f2-11eb-8a06-32e5c5efc5f9.JPG)
