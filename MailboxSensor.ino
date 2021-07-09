@@ -14,7 +14,7 @@ void setup() {
 
 
 
-  if (!LoRa.begin(433E6)) {                     // frequency in Hz (ASIA 433E6, EU 868E6, US 915E6)
+  if (!LoRa.begin(433E6)) {                         // frequency in Hz (ASIA 433E6, EU 868E6, US 915E6)
     Serial.println("LoRaError");
     while (1);
   }
@@ -48,7 +48,7 @@ void loop() {
   }
 
   if(loopcounter > 2){
-    digitalWrite(3, LOW); // Sets the digital pin 3 LOW
+    digitalWrite(3, LOW); // Sets the digital pin 3 LOW For power cut off
   }
 
   loopcounter ++;
