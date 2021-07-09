@@ -19,11 +19,12 @@ void setup() {
     while (1);
   }
 
-  //LoRa.setSignalBandwidth(Bandwidth);   // signal bandwidth in Hz, defaults to 125E3
-  //LoRa.setSpreadingFactor(8);           // ranges from 6-12,default 7 see API docs
-  LoRa.setSyncWord(0xF3);               // byte value to use as the sync word, defaults to 0x12
-  LoRa.enableCrc();                     // Enable or disable CRC usage, by default a CRC is not used
-  LoRa.setTxPower(20);
+  //LoRa.setSignalBandwidth(Bandwidth);   			// signal bandwidth in Hz, defaults to 125E3
+  //LoRa.setSpreadingFactor(8);           			// ranges from 6-12,default 7 see API docs
+  //LoRa.setCodingRate4(codingRate);				// codingRate defaults to 5
+  LoRa.setSyncWord(0xF3);               			// byte value to use as the sync word, defaults to 0x12
+  LoRa.enableCrc();                     			// Enable or disable CRC usage, by default a CRC is not used
+  LoRa.setTxPower(20);								// TX power in dB, defaults to 17, Supported values are 2 to 20
 }
 
 
@@ -35,19 +36,19 @@ void loop() {
 
   if (loopcounter < 2){
     LoRa.beginPacket();
-    LoRa.print("0xA2B2");  //  your MailBox key here 
+    LoRa.print("0xA2B2");  //  Your MailBox key here 
     LoRa.endPacket();
     delay(500);
    }
 
-  if (volts < 3.3 and loopcounter == 1 ){
+  if (volts < 3.2 and loopcounter == 1 ){
     LoRa.beginPacket();
-    LoRa.print("0xA3B3");   //  your low Battery key here
+    LoRa.print("0xA3B3");   //  Your low Battery key here
     LoRa.endPacket();
   }
 
   if(loopcounter > 2){
-    digitalWrite(3, LOW); // sets the digital pin 3 off
+    digitalWrite(3, LOW); // Sets the digital pin 3 LOW
   }
 
   loopcounter ++;
