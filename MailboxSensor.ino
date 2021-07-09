@@ -14,7 +14,7 @@ void setup() {
 
 
 
-  if (!LoRa.begin(433E6)) {
+  if (!LoRa.begin(433E6)) {                     // frequency in Hz (ASIA 433E6, EU 868E6, US 915E6)
     Serial.println("LoRaError");
     while (1);
   }
@@ -36,14 +36,14 @@ void loop() {
 
   if (loopcounter < 2){
     LoRa.beginPacket();
-    LoRa.print("0xA2B2");  //  Your MailBox key here 
+    LoRa.print("0xA2B2");  //  Your MailBox key here <---------------- Change This ! ----------------------
     LoRa.endPacket();
     delay(500);
    }
 
   if (volts < 3.2 and loopcounter == 1 ){
     LoRa.beginPacket();
-    LoRa.print("0xA3B3");   //  Your low Battery key here
+    LoRa.print("0xA3B3");   //  Your low Battery key here <---------------- Change This ! ----------------------
     LoRa.endPacket();
   }
 
