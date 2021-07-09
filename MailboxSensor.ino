@@ -1,3 +1,5 @@
+// Youtube Channel "PricelessToolkit" https://youtu.be/RHsjFPWaYSY
+
 #include <SPI.h>
 #include <LoRa.h>
 
