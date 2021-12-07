@@ -52,6 +52,10 @@ https://youtu.be/6DftaHxDawM
 
 # Which Arduino pins to solder
 The board connects to the arduino via pins D2 D3 D9 D10 D11 D12 D13 A0 VCC GND
+All other pinholes in PCB are not connected to anything!!!
+
+![Which Arduino pins to solder](https://raw.githubusercontent.com/PricelessToolkit/LoraMailboxSensor-2.0/main/img/Whichpintosolder.JPG)
+
 
 # Scheme
 ![schem](https://user-images.githubusercontent.com/81021972/123468879-a6aba200-d5f2-11eb-8a06-32e5c5efc5f9.JPG)
