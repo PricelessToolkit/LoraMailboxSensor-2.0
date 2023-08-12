@@ -1,4 +1,7 @@
 # !! New MailBox_V2 Sensor https://github.com/PricelessToolkit/MailBoxGuard
+# Important note
+# This is an old and unsuppported project.
+# Material provided here is for information only.
 -------------------------------------------------------------------------------------------
 ## ! I do not advise making this old Version, this repo is exist only for archive purposes !
 ### LoraMailboxSensor-1.0 433Mhz or 915/868Mhz
